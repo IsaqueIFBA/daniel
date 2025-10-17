@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a:hover{
+    color:black;
+    background-color: black;
+}
+#logo{
+    display:flex;
+    justify-content: space-around;
+   
+}
+#logo img{
+    height:150px;
+}
+#n{
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+    justify-content: space-evenly;
+    display:flex;
+    list-style: none;
+    color:#926C15;
+    font-weight:900;
+}
+#n > a{
+    text-decoration: none;
+    color: #926C15;
+}
+.lim{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#daniel{
+   padding:20px;
+    background-color:#F4F3EB;
+}
+.limdaniel{
+    display:flex;
+}
+#daniel .fotonome{
+    margin: 20px;
+    text-align:center;
+}
+#daniel img{
+    height:200px;
+}
+#daniel h5{
+    font-family:"Julius Sans One", sans-serif;
+    color:#926C15;
+    font-weight:900;
+}
+#daniel a{
+     background-color: #FAD643;
+    border-radius: 80px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+#daniel p{
+    text-align: center;
+    font-family: "IM Fell Great Primer SC", serif;
+}
+#tex{
+    font-family: "Roboto", sans-serif;;
+    display: flex;
+    align-items: center;
+}
+#port{
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+#port img{
+    height: 300px;
+}
+#port h2{
+  font-family:"Julius Sans One", sans-serif;
+    color:#926C15;
+    font-weight:900;
+    text-align: center;
+    padding:50px;
+}
+#port.lim{
+    max-width: 1000px;
+     margin: 0 auto;
+}
+#port div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+    gap:20px;
+}
+#port  a {
+    background-color: #FAD643;
+    border-radius: 80px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+#dep1{
+    font-family:"Julius Sans One", sans-serif;
+    color:#926C15;
+    font-weight:900;
+    text-align: center;
+}
+#dep2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#port p{
+    text-align: center;
+    font-family: "IM Fell Great Primer SC", serif;
+}
+#depcc{
+    background-color: #F4F3EB;
+}
+#dep2 h4{
+    font-family:"Julius Sans One", sans-serif;
+    color:#926C15;
+    font-weight:900;
+    padding:10px;
+}
+#dep2 p{
+    font-family: "Roboto", sans-serif;
+   margin:20px;
+}
+#li3{
+    font-family:"Julius Sans One", sans-serif;
+    color:#926C15;
+    font-weight:900;
+    padding:50px;
+}
+#cont article{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    height:100px;
+}
+#cont h4{
+    padding: 10px;
+}
+#cont{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#cont h5{
+     font-family:"Julius Sans One", sans-serif;
+}
+#por1{
+    font-family:"Julius Sans One", sans-serif;
+    color:#926C15;
+    font-weight:900;
+    padding:50px;
+    text-align: center;
+}
+#por2 div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+    gap:20px;
+}
+#por2 img{
+    height: 300px;
+}
+#depp{
+    font-family: "Roboto", sans-serif;
+    margin:20px;
+    font-weight: 900;
+}
+#k a{
+     text-decoration: none;
+}
+#his p{
+    font-family: "Roboto", sans-serif;
+    margin:20px;
+    font-weight: 900;
+}
+#o a{
+     text-decoration: none;
+}
