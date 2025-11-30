@@ -28,7 +28,7 @@ a:hover{
     text-decoration: none;
     color: #926C15;
 }
-.lim{
+.container{
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -36,7 +36,7 @@ a:hover{
    padding:20px;
     background-color:#F4F3EB;
 }
-.limdaniel{
+.containerdaniel{
     display:flex;
 }
 #daniel .fotonome{
