@@ -3,14 +3,17 @@
     padding:0;
     box-sizing: border-box;
 }
+img{
+    max-width:100%;
+}
 a:hover{
     color:black;
     background-color: black;
 }
 #logo{
     display:flex;
-    justify-content: space-around;
-   
+    justify-content:center;
+    width: 100%;   
 }
 #logo img{
     height:150px;
@@ -185,4 +188,7 @@ a:hover{
 }
 #his p{
     background-color: #F4F3EB;
+}
+@media screen and (max-width:769px){
+
 }
