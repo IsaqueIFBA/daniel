@@ -45,21 +45,22 @@ a:hover{
 #daniel .fotonome{
     margin: 20px;
     text-align:center;
+     width:30%;
 }
-#daniel img{
-    height:200px;
-}
+
 #daniel h5{
     font-family:"Julius Sans One", sans-serif;
     color:#926C15;
     font-weight:900;
 }
 #daniel a{
-     background-color: #FAD643;
+    background-color: #FAD643;
     border-radius: 80px;
     padding: 10px 20px;
     margin-bottom: 50px;
     text-decoration: none;
+    display: block;
+    margin-top:20px;
 }
 #daniel p{
     text-align: center;
@@ -69,6 +70,7 @@ a:hover{
     font-family: "Roboto", sans-serif;;
     display: flex;
     align-items: center;
+    width:70%;
 }
 #port{
     padding-bottom: 50px;
@@ -202,14 +204,21 @@ a:hover{
  }
  #port div{
     grid-template-columns:1fr 1fr;
-    margin-left:140px;
+    justify-items: center;
 }
 #port img{
     height:200px;
-    align-items:center;
 }
 .containerdaniel{
     flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.fotonome{
+    width:100%;
+}
+#tex{
+    width:100%;
 }
 #dep2{
     grid-template-columns:1fr;
@@ -218,7 +227,6 @@ a:hover{
 @media screen and (max-width:426px){
 #port div{
     grid-template-columns: 1fr;
-    margin-left:100px;
 }
 #port img{
     height:250px;
