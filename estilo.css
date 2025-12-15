@@ -280,7 +280,6 @@ fieldset label {
     font-family: 'Julius Sans One', sans-serif;
     display: block; 
 }
-
 .btamarelo:hover {
     background-color: #926C15; 
     color: white; 
@@ -321,41 +320,33 @@ fieldset label {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
     }
-
-    /* Regras do Formulário */
     form {
         max-width: 90%; 
         margin: 20px auto; 
         padding: 15px;
         border-radius: 0;
     }
-    
     label, legend {
         font-size: 15px;
     }
-
     .formulario {
         padding: 8px;
         margin-bottom: 15px;
     }
-    
     fieldset {
         padding: 10px;
         margin-bottom: 20px;
     }
-
     fieldset label {
         display: block; 
         margin-right: 0;
         margin-bottom: 5px;
     }
-    
     .btamarelo {
         padding: 10px;
         font-size: 16px;
     }
 }
-
 @media screen and (max-width: 426px) {
     #port div {
         grid-template-columns: 1fr;
@@ -366,22 +357,17 @@ fieldset label {
     #por2 div {
         grid-template-columns: 1fr;
     }
-
-    /* Regras do Formulário */
     form {
         max-width: 95%; 
         padding: 10px;
         margin: 10px auto;
     }
-    
     textarea.formulario {
         height: 120px;
     }
-
     label, legend {
         font-size: 14px;
     }
-    
     .btamarelo {
         padding: 12px;
         font-size: 15px;
