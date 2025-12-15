@@ -203,6 +203,89 @@ a:hover{
     display:flex;
     justify-content: center;
 }
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white; 
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario {
+    width: 100%;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0; 
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #4a4a4a;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea.formulario {
+    height: 150px;
+}
+
+.formulario:focus {
+    border-color: #926C15;
+    box-shadow: 0 0 0 1px #926C15;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 0; 
+}
+
+legend {
+    font-weight: bold;
+    color: #926C15;
+    padding: 0 10px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 18px;
+}
+
+fieldset label {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.btamarelo {
+    background-color: #FAD643;
+    color: #333;
+    padding: 12px 25px;
+    border: 2px solid #FAD643;
+    border-radius: 0; 
+    font-size: 17px;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    display: block; 
+}
+
+.btamarelo:hover {
+    background-color: #926C15; 
+    color: white; 
+    border-color: #926C15;
+}
 @media screen and (max-width:769px){
  #cont{
     flex-direction: column;

@@ -20,23 +20,24 @@
     <link rel="icon" type="image/png" href="imagens/logo2.png">
 </head>
 <body>
-    <header>
-        <div id="logo">
-        <a herf="index.html"><img src="imagens/logo.png"></a>
-        </div>
+    <header id="logo">
+        <a href="./index.html"><img src="imagens/logo.png"></a>
     </header>
-    <nav id="k">
-        <a href="./index.html"><h2 id="por1">CONTATOS</h2></a>
+    <nav>
+        <ul id="n">
+           <a href="index.html"><li>HOME</li></a>
+            <a href="#li"><li>POTFÓLIO</li></a>
+            <a href="#li2"><li>DEPOIMENTOS</li></a>
+            <a href="#li3"><li>CONTATOS</li></a>
+        </ul>
     </nav>
     <main>
         <form>
             <label>Nome:
                 <input type="text" name="nome" class="formulario">
-                <br>
             </label>
             <label>Email
                 <input type="email" name="email" class="formulario">
-                <br>
             </label>
             <label>Telefone:
                 <input type="tel" name="telefone" class="formulario">
@@ -59,11 +60,38 @@
                     <input type="checkbox" name="ensaio" value="gestante">
                     Gestante
                 </label>
-                <br>
             </fieldset>
-            <label for="comentario">Deixe um comentário para o fotógrafo</label><br>
+            <label for="comentario">Deixe um comentário para o fotógrafo</label>
              <textarea name="comentario" class="formulario" rows="30" cols="30"></textarea>
         </form>
+        <button class="btamarelo">Enviar</button>
     </main>
+    <footer>
+        <section id=cont>
+            <article>
+                <img src="imagens/whatsapp.png">
+                <h5>(11) 998765-4321</h5>
+            </article>
+            <article>
+                <img src="imagens/facebook.png">
+                <h5>@FotografiasDanielSouza</h5>
+            </article>
+            <article>
+                <img src="imagens/instagram.png">
+                <h5>@dsfotografia_oficial</h5>
+            </article>
+            <article>
+                <img src="imagens/email.png">
+                <h5>dsfotografia.contato@email.com</h5>
+            </article>
+            <article>
+                <img src="imagens/place.png">
+                <h5>Rua das Palmeiras, 123, Centro, Brumado</h5>
+            </article>
+            <div>   
+                <img src="imagens/logo.png">
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
